@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Klee One';
+    src: url('./fonts/KleeOne-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Klee One';
+    src: url('./fonts/KleeOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kelly Slab';
+    src: url('./fonts/KellySlab-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1494px;
+    margin: auto;
+}
+
+.phoneLayer {
+    padding-top: 21px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.phone {
+    border-left: 3px solid black;
+}
+
+.topSide {
+    background: rgba(0, 152, 200, 0.75);
+    padding-bottom: 65px;
+    height: 540px;
+}
+
+.logoLayer {
+    font-family: 'Klee One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center;
+}
+
+.getTourWrapper {
+    margin: auto;
+    width: 1094px;
+    display: flex;
+    justify-content: space-around;
+    background: #D9D9D9;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.getTourBot {
+    justify-content: center;
+    display: flex;
+}
+
+.numberPhone {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.selectTour {
+    margin-left: 200px;
+    width: 172px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 2px solid yellow;
+    margin-bottom: 8px;
+}
+
+.sliderLayer {
+    position: relative;
+    padding-top: 69px;
+    padding-bottom: 35px;
+    width: 1358px;
+    height: 635px;
+    margin: auto;
+}
+
+.sliderZagl {
+    position: absolute;
+    /* width: 5000px; */
+    z-index: -1;
+    width: 1358px;
+    height: 635px;
+    background-image: url(./components/image\ 7.png);
+    margin: auto;
+}
+
+.buttonsSlider {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 1450px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    left: -45px;
+}
+
+.btnSliderLeft {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.btnSliderRight {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.toLeft {
+    filter: invert(1);
+    width: 44px;
+    transform: rotate(90deg);
+}
+
+.toRight {
+    filter: invert(1);
+    width: 44px;
+    transform: rotate(-90deg);
+}
+
+.summer {
+    position: absolute;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 113px;
+    left: 550px;
+}
+
+.egipet {
+    top: 135px;
+    left: 500px;
+    position: absolute;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 92px;
+    text-align: center;
+    color: #FF7A00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.do {
+    position: absolute;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    top: 257px;
+    left: 550px;
+}
+
+.percent {
+    position: absolute;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 92px;
+    text-align: center;
+    color: #D9D9D9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 242px;
+    left: 580px;
+}
+
+.jfi {
+    display: flex;
+    justify-content: center;
+}
+
+.bestieText {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 740px;
+    margin-left: 80px;
+}
+
+.bestie img {
+    width: 1494px;
+    margin: auto;
+}
+
+.bestie {
+    background-color: #F8F8F8;
+}
+
+.sales {
+    background-color: #F8F8F8;
+    margin-bottom: 60px;
+}
+
+.salesText {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 140px;
+    margin-left: 80px;
+}
+
+.sales img {
+    width: 1494px;
+    margin: auto;
+}
+
+.someBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.topText {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.botText {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.textBlock {
+    padding-left: 14px;
+    width: 450px;
+}
+
+.form {
+    background: #13BDF1;
+}
+
+.formTitle {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    padding-top: 81px;
+    padding-bottom: 8px;
+}
+
+.formSubTitle {
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.formInput {
+    width: 531px;
+    height: 76px;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    line-height: 76px;
+    border: none;
+}
+
+.sub {
+    width: 328px;
+    height: 78px;
+    background-color: white;
+    border: none;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 24px;
+}
+
+.inputs {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 117px;
+    margin-bottom: 134px;
+}
+
+.line {
+    width: 61px;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.footer {
+    background: rgba(19, 81, 241, 0.84);
+    padding-top: 110px;
+}
+
+.footWrapper {
+    display: flex;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+}
+
+.MUCHTEXT {
+    /* width: 725px; */
+    height: 210px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.oblaka {
+    position: absolute;
+    width: 577px;
+    height: 604px;
+    left: 0px;
+    top: 0px;
+    background: url(image.png);
+    mix-blend-mode: screen;
+}
